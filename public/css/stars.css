@@ -1,0 +1,625 @@
+svg {
+	position: absolute;
+	-webkit-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+	width: 35px;
+	height: 35px;
+}
+
+
+svg.sparkle1 {
+    top: 5%;
+    left: 5%;
+}
+
+
+.group {
+    -webkit-transform: translate(42.5px,42.5px);
+    -moz-transform: translate(42.5px,42.5px);
+    transform: translate(42.5px, 42.5px);
+}
+path {
+    -webkit-transform: translate(-42.50px,-42.50px);
+    -moz-transform: translate(-42.50px,-42.50px);
+    transform: translate(-42.50px,-42.50px);
+}
+.large {
+	-webkit-animation: large 2.5s infinite;
+	-moz-animation: large 2.5s infinite;
+}
+.large-2 {
+	-webkit-animation: large-2 2.5s infinite;
+	-moz-animation: large-2 2.5s infinite;
+}
+.small {
+	-webkit-animation: small 2.5s infinite;
+	-moz-animation: small 2.5s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle2 ----*/
+
+svg.sparkle2 {
+    top: 30%;
+    left: 10%;
+}
+
+svg.sparkle2 .large {
+	-webkit-animation: large 2s infinite;
+	-moz-animation: large 2s infinite;
+}
+svg.sparkle2 .large-2 {
+	-webkit-animation: large-2 2s infinite;
+	-moz-animation: large-2 2s infinite;
+}
+svg.sparkle2 .small {
+	-webkit-animation: small 2.5s infinite;
+	-moz-animation: small 2.5s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle3 ----*/
+
+svg.sparkle3 {
+    top: 20%;
+    left: 12%;
+}
+
+svg.sparkle4 .large {
+	-webkit-animation: large 2s infinite;
+	-moz-animation: large 2s infinite;
+}
+svg.sparkle3 .large-2 {
+	-webkit-animation: large-2 2s infinite;
+	-moz-animation: large-2 2s infinite;
+}
+svg.sparkle3 .small {
+	-webkit-animation: small 2s infinite;
+	-moz-animation: small 2s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle4 ----*/
+
+svg.sparkle4 {
+    top: 7%;
+    left: 16%;
+
+}
+
+svg.sparkle4 .large {
+	-webkit-animation: large 3s infinite;
+	-moz-animation: large 3s infinite;
+}
+svg.sparkle4 .large-2 {
+	-webkit-animation: large-2 3s infinite;
+	-moz-animation: large-2 3s infinite;
+}
+svg.sparkle4 .small {
+	-webkit-animation: small 3s infinite;
+	-moz-animation: small 3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle5 ----*/
+
+svg.sparkle5 {
+    top: 25%;
+    left: 22%;
+}
+
+svg.sparkle5 .large {
+	-webkit-animation: large 3.1s infinite;
+	-moz-animation: large 3.1s infinite;
+}
+svg.sparkle5 .large-2 {
+	-webkit-animation: large-2 3.2s infinite;
+	-moz-animation: large-2 3.2s infinite;
+}
+svg.sparkle5 .small {
+	-webkit-animation: small 3.1s infinite;
+	-moz-animation: small 3.1s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle6 ----*/
+
+svg.sparkle6 {
+    top: 35%;
+    left: 30%;
+}
+
+svg.sparkle6 .large {
+	-webkit-animation: large 2.5s infinite;
+	-moz-animation: large 2.5s infinite;
+}
+svg.sparkle6 .large-2 {
+	-webkit-animation: large-2 2.5s infinite;
+	-moz-animation: large-2 2.5s infinite;
+}
+svg.sparkle6 .small {
+	-webkit-animation: small 2.5s infinite;
+	-moz-animation: small 2.5s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle7 ----*/
+
+svg.sparkle7 {
+    top: 10%;
+    left: 36%;
+}
+
+svg.sparkle7 .large {
+	-webkit-animation: large 3s infinite;
+	-moz-animation: large 3s infinite;
+}
+svg.sparkle7 .large-2 {
+	-webkit-animation: large-2 3s infinite;
+	-moz-animation: large-2 3s infinite;
+}
+svg.sparkle7 .small {
+	-webkit-animation: small 3s infinite;
+	-moz-animation: small 3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle8 ----*/
+
+svg.sparkle8 {
+    top: 40%;
+    left: 42%;
+	width: 40px;
+	height: 40px;
+}
+
+svg.sparkle8 .large {
+	-webkit-animation: large 2.3s infinite;
+	-moz-animation: large 2.3s infinite;
+}
+svg.sparkle8 .large-2 {
+	-webkit-animation: large-2 2.3s infinite;
+	-moz-animation: large-2 2.3s infinite;
+}
+svg.sparkle8 .small {
+	-webkit-animation: small 2.3s infinite;
+	-moz-animation: small 2.3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle9 ----*/
+
+svg.sparkle9 {
+    top: 20%;
+    left: 50%;
+}
+
+svg.sparkle9 .large {
+	-webkit-animation: large 1.8s infinite;
+	-moz-animation: large 1.8s infinite;
+}
+svg.sparkle9 .large-2 {
+	-webkit-animation: large-2 1.8s infinite;
+	-moz-animation: large-2 1.8s infinite;
+}
+svg.sparkle9 .small {
+	-webkit-animation: small 1.8s infinite;
+	-moz-animation: small 1.8s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle10 ----*/
+
+svg.sparkle10 {
+    top: 25%;
+    left: 55%;
+}
+
+svg.sparkle10 .large {
+	-webkit-animation: large 2.5s infinite;
+	-moz-animation: large 2.5s infinite;
+}
+svg.sparkle10 .large-2 {
+	-webkit-animation: large-2 2s infinite;
+	-moz-animation: large-2 2s infinite;
+}
+svg.sparkle10 .small {
+	-webkit-animation: small 2.5s infinite;
+	-moz-animation: small 2.5s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle11 ----*/
+
+svg.sparkle11 {
+    top: 5%;
+    left: 60%;
+}
+
+svg.sparkle11 .large {
+	-webkit-animation: large 3s infinite;
+	-moz-animation: large 3s infinite;
+}
+svg.sparkle11 .large-2 {
+	-webkit-animation: large-2 3s infinite;
+	-moz-animation: large-2 3s infinite;
+}
+svg.sparkle11 .small {
+	-webkit-animation: small 3s infinite;
+	-moz-animation: small 3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle12 ----*/
+
+svg.sparkle12 {
+    top: 45%;
+    left: 20%;
+}
+
+svg.sparkle12 .large {
+	-webkit-animation: large 3.1s infinite;
+	-moz-animation: large 3.1s infinite;
+}
+svg.sparkle12 .large-2 {
+	-webkit-animation: large-2 3.2s infinite;
+	-moz-animation: large-2 3.2s infinite;
+}
+svg.sparkle12 .small {
+	-webkit-animation: small 3.1s infinite;
+	-moz-animation: small 3.1s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle13 ----*/
+
+svg.sparkle13 {
+    top: 25%;
+    left: 65%;
+	width: 40px;
+	height: 40px;
+}
+
+svg.sparkle13 .large {
+	-webkit-animation: large 2.5s infinite;
+	-moz-animation: large 2.5s infinite;
+}
+svg.sparkle13 .large-2 {
+	-webkit-animation: large-2 2.5s infinite;
+	-moz-animation: large-2 2.5s infinite;
+}
+svg.sparkle13 .small {
+	-webkit-animation: small 2.5s infinite;
+	-moz-animation: small 2.5s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle14 ----*/
+
+svg.sparkle14 {
+    top: 45%;
+    left: 55%;
+}
+
+svg.sparkle14 .large {
+	-webkit-animation: large 3s infinite;
+	-moz-animation: large 3s infinite;
+}
+svg.sparkle14 .large-2 {
+	-webkit-animation: large-2 3s infinite;
+	-moz-animation: large-2 3s infinite;
+}
+svg.sparkle14 .small {
+	-webkit-animation: small 3s infinite;
+	-moz-animation: small 3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle15 ----*/
+
+svg.sparkle15 {
+    top: 50%;
+    left: 80%;
+}
+
+svg.sparkle15 .large {
+	-webkit-animation: large 2.3s infinite;
+	-moz-animation: large 2.3s infinite;
+}
+svg.sparkle15 .large-2 {
+	-webkit-animation: large-2 2.3s infinite;
+	-moz-animation: large-2 2.3s infinite;
+}
+svg.sparkle15 .small {
+	-webkit-animation: small 2.3s infinite;
+	-moz-animation: small 2.3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle16 ----*/
+
+svg.sparkle16 {
+    top: 15%;
+    left: 90%;
+}
+
+svg.sparkle16 .large {
+	-webkit-animation: large 3s infinite;
+	-moz-animation: large 3s infinite;
+}
+svg.sparkle16 .large-2 {
+	-webkit-animation: large-2 3s infinite;
+	-moz-animation: large-2 3s infinite;
+}
+svg.sparkle16 .small {
+	-webkit-animation: small 3s infinite;
+	-moz-animation: small 3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle17 ----*/
+
+svg.sparkle17 {
+    top: 40%;
+    left: 10%;
+}
+
+svg.sparkle17 .large {
+	-webkit-animation: large 2.3s infinite;
+	-moz-animation: large 2.3s infinite;
+}
+svg.sparkle17 .large-2 {
+	-webkit-animation: large-2 2.3s infinite;
+	-moz-animation: large-2 2.3s infinite;
+}
+svg.sparkle17 .small {
+	-webkit-animation: small 2.3s infinite;
+	-moz-animation: small 2.3s infinite;
+}
+
+/*-------------------------------------------------------------------------------------------------- Sparkle18 ----*/
+
+svg.sparkle18 {
+    top: 15%;
+    left: 95%;
+}
+
+svg.sparkle18 .large {
+	-webkit-animation: large 1.9s infinite;
+	-moz-animation: large 1.9s infinite;
+}
+svg.sparkle18 .large-2 {
+	-webkit-animation: large-2 1.9s infinite;
+	-moz-animation: large-2 1.9s infinite;
+}
+svg.sparkle18 .small {
+	-webkit-animation: small 1.9s infinite;
+	-moz-animation: small 1.9s infinite;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	
+		svg.sparkle1 {
+			top: 20%;
+			left: 5%;
+		}
+		svg.sparkle2 {
+			top: 5%;
+			left: 80%;
+		}
+		svg.sparkle3 {
+			top: 45%;
+			left: 10%;
+		}
+		svg.sparkle4 {
+			top: 11%;
+			left: 35%;
+		}
+		svg.sparkle5 {
+			top: 5%;
+			left: 5%;
+		}
+		svg.sparkle6 {
+			top: 15%;
+			left: 7%;
+		}
+		svg.sparkle7 {
+			top: 15%;
+			left: 30%;
+		}
+		svg.sparkle8 {
+			top: 40%;
+			left: 70%;
+		}
+		svg.sparkle9 {
+			top: 5%;
+			left: 30%;
+		}
+		svg.sparkle10 {
+			top: 22%;
+			left: 50%;
+		}
+		svg.sparkle11 {
+			top: 18%;
+			left: 47%;
+		}
+		svg.sparkle12 {
+			top: 4%;
+			left: 45%;
+		}
+		svg.sparkle13 {
+			top: 30%;
+			left: 41%;
+		}
+		svg.sparkle14 {
+			top: 50%;
+			left: 40%;
+		}
+		svg.sparkle15 {
+			top: 46%;
+			left: 52%;
+		}
+		svg.sparkle16 {
+			top: 45%;
+			left: 40%;
+		}
+		svg.sparkle17 {
+			top: 28%;
+			left: 60%;
+		}
+		svg.sparkle18 {
+			top: 26%;
+			left: 10%;
+		}
+	
+}
+
+
+@media screen and (max-width: 520px) {
+	
+		svg.sparkle1 {
+			top: 20%;
+			left: 5%;
+		}
+		svg.sparkle2 {
+			top: 5%;
+			left: 80%;
+		}
+		svg.sparkle3 {
+			top: 45%;
+			left: 10%;
+		}
+		svg.sparkle4 {
+			top: 11%;
+			left: 35%;
+		}
+		svg.sparkle5 {
+			top: 5%;
+			left: 5%;
+		}
+		svg.sparkle6 {
+			top: 15%;
+			left: 7%;
+		}
+		svg.sparkle7 {
+			top: 15%;
+			left: 30%;
+		}
+		svg.sparkle8 {
+			top: 40%;
+			left: 70%;
+		}
+		svg.sparkle9 {
+			top: 5%;
+			left: 30%;
+		}
+		svg.sparkle10 {
+			top: 22%;
+			left: 50%;
+		}
+		svg.sparkle11 {
+			top: 18%;
+			left: 47%;
+		}
+		svg.sparkle12 {
+			top: 4%;
+			left: 45%;
+		}
+		svg.sparkle13 {
+			top: 30%;
+			left: 41%;
+		}
+		svg.sparkle14 {
+			top: 50%;
+			left: 40%;
+		}
+		svg.sparkle15 {
+			top: 46%;
+			left: 52%;
+		}
+		svg.sparkle16 {
+			top: 45%;
+			left: 40%;
+		}
+		svg.sparkle17 {
+			top: 28%;
+			left: 60%;
+		}
+		svg.sparkle18 {
+			top: 26%;
+			left: 10%;
+		}
+	
+}
+
+
+@-webkit-keyframes large {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate(0deg) scale(0);
+		transform: rotate(0deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: rotate(360deg) scale(1.5);
+		transform: rotate(360deg) scale(1.5);
+	}
+}
+@-moz-keyframes large {
+	0% {
+		opacity: 0;
+		transform: rotate(0deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(360deg) scale(1.5);
+	}
+}
+@-webkit-keyframes large-2 {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate(45deg) scale(0);
+		transform: rotate(45deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: rotate(405deg) scale(1.1);
+		transform: rotate(405deg) scale(1.1);
+	}
+}
+@-moz-keyframes large-2 {
+	0% {
+		opacity: 0;
+		transform: rotate(45deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(405deg) scale(1.1);
+	}
+}
+@-webkit-keyframes small {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate(0deg) scale(0);
+		transform: rotate(0deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: rotate(-360deg) scale(1);
+		transform: rotate(-360deg) scale(1.5);
+	}
+}
+@-moz-keyframes small {
+	0% {
+		opacity: 0;
+		transform: rotate(0deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(-360deg) scale(1.5);
+	}
+}
