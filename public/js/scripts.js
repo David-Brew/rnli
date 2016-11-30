@@ -103,6 +103,34 @@ $(document).ready(function(){
             }
     });
     
+          
+          $('#text-box').hide();
+
+ 
+
+        $("#add-em").click(function() {
+            
+                    $("#sparkle-add").animate({ 
+    height: '120px',
+    width: '120px',
+        left: '47%',
+        bottom: '47%'
+                          }, 2000 );
+          
+            
+                    $('#sparkle-add').addClass('show');
+                    $('#sparkle-add').addClass('sparkle-center');
+                    
+                    $("#sparkle-add").width(110).height(110);
+                    
+
+                    
+                    $('#add-star').delay(2000).fadeOut("slow");
+                    $('#text-box').delay(4000).fadeIn("slow");
+          
+          
+          });
+    
 
 
 });

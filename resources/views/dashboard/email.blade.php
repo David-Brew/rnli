@@ -5,9 +5,9 @@
     <div class="center-align">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Contact Us</div>
+                    <div class="panel-heading">Marketing Email</div>
                     <div class="panel-body">
-                        {!! Form::open(['url' => 'contact']) !!}
+                        {!! Form::open(['url' => 'email']) !!}
 
                             <div class="form-group">
                                 {!! Form::label('subject', 'Subject:') !!}

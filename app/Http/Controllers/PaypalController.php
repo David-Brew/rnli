@@ -105,11 +105,17 @@ class PaypalController extends Controller
 
 	    
 	   // print_r($executePayment);
-        return view('pages/addStars', compact('id'));
+        return view('pages/addStars', compact('id','star'));
 	}
 
 	public function getCancel()
 	{
 	    return redirect()->route('payPremium');
+	}
+	public function test()
+	{
+        $id = 'ddd';
+        $star = 'David';
+	    return view('pages/test', compact('id','star'));
 	}
 }

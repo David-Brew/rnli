@@ -21,6 +21,7 @@ Route::get('about', 'PagesController@about');
 Route::get('contact', 'PagesController@contact');
 Route::get('sponsor', 'PagesController@sponsor');
 
+
 Route::get('stars', 'StarsController@list');
 Route::get('stars/create', 'StarsController@create');
 Route::get('stars/{id}', 'StarsController@show');
@@ -37,7 +38,9 @@ Route::delete('stars/{id}/', 'StarsController@destroy');
 */
 
 Route::get('email', 'EmailController@index');
-Route::post('email', 'EmailController@send');
+Route::post('email', 'EmailController@sendEmail');
+Route::post('contact', 'EmailController@sendContact');
+Route::get('email-example', 'EmailController@emailExample');
 
 
 Auth::routes();
@@ -50,3 +53,5 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('addStars', ['as'=>'addStars','uses'=>'PaypalController@getDone']);
     Route::get('getCancel', ['as'=>'getCancel','uses'=>'PaypalController@getCancel']);
 });
+
+Route::get('test', 'PaypalController@test');

@@ -246,6 +246,78 @@ nav li a {
 
 
 
+
+
+#add-star {
+    color: #fff;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    left: 5%;
+    bottom: 9%;
+    right: auto;
+    position: absolute;
+}
+
+
+#text-box{
+    color: #fff;
+    font-size: 25px;
+    max-width: 320px;
+    position: absolute;
+    margin: 0 auto;
+    left: 5%;
+    bottom: 9%;
+    display: none;
+        -webkit-transition: all 2s ease;  
+        -moz-transition: all 2s ease;  
+        -o-transition: all 2s ease;  
+        -ms-transition: all 2s ease;  
+        transition: all 2s ease;	
+}
+
+#add-star p {
+    margin: 0px 0px;
+}
+
+#add-em:hover {
+    cursor: pointer;
+}
+
+#sparkle-add {
+        left: -10%;
+        bottom: -10%;
+		display: none;
+        -webkit-transition: all 2s ease;  
+        -moz-transition: all 2s ease;  
+        -o-transition: all 2s ease;  
+        -ms-transition: all 2s ease;  
+        transition: all 2s ease;	
+}
+
+.show{
+    opacity: 1;
+}
+svg.sparkle-center{
+    height: 120px;
+    width: 120px;
+        left: 47%;
+        bottom: 47%;
+    
+}
+.item{
+    clear: both;
+    overflow: auto;
+    padding: 5px 0px;
+}
+
+.item:nth-child(even){
+    background: #D3D3D3;
+}
+
+
+
 @media only screen and (max-width: 1200px) {
 
 	

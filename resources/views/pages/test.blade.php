@@ -2,8 +2,12 @@
 
 @section('content')
 
+    <h1>Success</h1>
+<p>{{ $id }}</p>
+
 @if (! empty($id))
     
+
         <div id="add-star"> 
             
                 <img id="add-em" width="90" height="auto" alt="" src="/img/logo.png" typeof="foaf:Image">
@@ -13,7 +17,7 @@
 
 
         <div id="text-box">
-          <p>Thank you {{ $star->name }}</p>
+          <p>Thank you {{ $star }}</p>
         </div>
 
 
@@ -32,7 +36,6 @@
             </g>
           </g>
         </svg>
-
 @endif
 
 @stop
