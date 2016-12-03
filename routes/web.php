@@ -21,14 +21,15 @@ Route::get('about', 'PagesController@about');
 Route::get('contact', 'PagesController@contact');
 Route::get('sponsor', 'PagesController@sponsor');
 
-
-Route::get('stars', 'StarsController@list');
-Route::get('stars/create', 'StarsController@create');
-Route::get('stars/{id}', 'StarsController@show');
-Route::post('stars', 'StarsController@store');
-Route::get('stars/{id}/edit', 'StarsController@edit');
-Route::patch('stars/{id}/', 'StarsController@update');
-Route::delete('stars/{id}/', 'StarsController@destroy');
+Route::group( ['middleware' => 'auth' ], function(){
+    Route::get('stars', 'StarsController@list');
+    Route::get('stars/create', 'StarsController@create');
+    Route::get('stars/{id}', 'StarsController@show');
+    Route::post('stars', 'StarsController@store');
+    Route::get('stars/{id}/edit', 'StarsController@edit');
+    Route::patch('stars/{id}/', 'StarsController@update');
+    Route::delete('stars/{id}/', 'StarsController@destroy');
+});
 
 /*
 *
@@ -36,11 +37,13 @@ Route::delete('stars/{id}/', 'StarsController@destroy');
 * Route::resource('stars', 'StarsController');
 *
 */
+Route::group( ['middleware' => 'auth' ], function(){
+    Route::get('email', 'EmailController@index');
+    Route::post('email', 'EmailController@sendEmail');
+    Route::get('email-example', 'EmailController@emailExample');
+});
 
-Route::get('email', 'EmailController@index');
-Route::post('email', 'EmailController@sendEmail');
 Route::post('contact', 'EmailController@sendContact');
-Route::get('email-example', 'EmailController@emailExample');
 
 
 Auth::routes();

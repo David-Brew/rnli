@@ -7,6 +7,11 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Marketing Email</div>
                     <div class="panel-body">
+                        
+                        @if (! empty($success))
+                            <h1 style="color: green; text-align: center;">Success</h1>
+                        @endif
+                        
                         {!! Form::open(['url' => 'email']) !!}
 
                             <div class="form-group">

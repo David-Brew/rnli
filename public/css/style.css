@@ -14,11 +14,11 @@ body{
     min-height: 100%;
     height: auto;
     background: url(../img/background.jpg);
-    background-size: cover;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: bottom;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     margin:0;
     padding:0;
 }
@@ -32,6 +32,7 @@ body{
     right: 40px;
     color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
+    z-index: 999;
 }
 #menu-icon:hover{
     color: rgba(255, 255, 255, 1);
@@ -141,6 +142,11 @@ nav li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+}
+
+.panel-body h3{
+    margin: 0px 0px 0px 0px;
 }
 
 #home-footer{
@@ -338,16 +344,16 @@ svg.sparkle-center{
 
     body{
         background: url(../img/mobile-bg.jpg);
-        background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: bottom;
         position: relative;
         overflow: auto;
         overflow-x: hidden;
+        padding-top: 50px;
         
     }
     #home-page {
-        min-height: 1200px;
+        min-height: 1000px;
         padding-top: 0px;
     }
     
